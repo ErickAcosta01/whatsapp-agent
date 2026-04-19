@@ -98,8 +98,8 @@ app.post("/webhook", async (req, res) => {
 
     if (needsHumanAgent(incomingMessage)) {
       reply =
-        "🙋 Entendido, un agente humano te contactará pronto.\n" +
-        "También puedes llamarnos al *+1-800-000-0000* en horario de atención.\n" +
+        "Entendido, un agente humano te contactará pronto.\n" +
+        "También puedes llamarnos al *+1-849-881-5431* en horario de atención.\n" +
         "¡Gracias por tu paciencia!";
       conversations.delete(fromNumber); // resetear historial
     } else {
